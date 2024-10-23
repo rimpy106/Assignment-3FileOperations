@@ -33,10 +33,10 @@ public class UserService {
         System.out.println("Enter user password");
         String userPassword=sc.nextLine();
 
-        System.out.println("Enter user name");
-        String userName=sc.nextLine();
+        /*System.out.println("Enter user name");
+        String userName=sc.nextLine();*/
 
-        User user=new User(userEmail,userPassword,userName);
+        User user=new User(userEmail,userPassword);
 
         return user;
 

@@ -11,6 +11,11 @@ public class User {
         this.userName = userName;
     }
 
+    public User(String userEmail, String userPassword) {
+        this.userEmail = userEmail;
+        this.userPassword = userPassword;
+    }
+
     public String getUserEmail() {
         return userEmail;
     }
